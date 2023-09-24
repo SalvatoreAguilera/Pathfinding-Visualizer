@@ -15,7 +15,7 @@ if (screenWidth < 1400){
     COLS = 48; //67
     ROWS = 24  //30
 }else{
-    COLS = 66;
+    COLS = 67;
     ROWS = 30;
 }
 

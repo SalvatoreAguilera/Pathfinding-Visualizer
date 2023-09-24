@@ -40,7 +40,7 @@ function makeGrid(){
         container.appendChild(row);
     }
     
-    grid[ROWS/2][COLS/2-10].classList.add("start");
+    grid[ROWS/2][COLS/4-10].classList.add("start");
     grid[ROWS/2][COLS/2+10].classList.add("end");
     
 

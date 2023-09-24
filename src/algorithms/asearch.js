@@ -1,4 +1,4 @@
-import { changeColor,shortestPathAlgo, noPathResetFlag, ROWS, COLS } from "/Grid/Board.js";
+import { changeColor,shortestPathAlgo, noPathResetFlag, ROWS, COLS } from "../board/board.js";
 
 function getHeuristics(currPosition, endPosition){
     let d1 = Math.abs(currPosition.x - endPosition.x);

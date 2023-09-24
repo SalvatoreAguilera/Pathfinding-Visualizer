@@ -1,4 +1,4 @@
-import { changeColor,shortestPathAlgo,noPathResetFlag,ROWS,COLS } from "/Grid/Board.js";
+import { changeColor,shortestPathAlgo,noPathResetFlag,ROWS,COLS } from "../board/board.js";
 
 export function Dijkstra(grid,visGrid,source,corX,corY){
     let directions = [[0,1],[1,0],[0,-1],[-1,0]]

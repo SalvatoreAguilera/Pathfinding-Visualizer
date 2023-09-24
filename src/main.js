@@ -1,10 +1,10 @@
-import {BFS} from "/Algorithms/BFS.js"
-import {Dijkstra} from "/Algorithms/Dijkstra's.js"
-import {dfsAlgo} from "/Algorithms/DFS.js"
-import {Grid,visGrid,clearAlgo,flag,ROWS,COLS} from "/Grid/Board.js"
-import {Asearch} from "/Algorithms/Asearch.js";
-import { dropMenu } from "/GridEvents/Events.js";
-import {startX,startY} from "/GridEvents/DragAndDrop.js"
+import {BFS} from "./algorithms/bfs.js"
+import {Dijkstra} from "./algorithms/dijkstras.js"
+import {dfsAlgo} from "./algorithms/dfs.js"
+import {Grid,visGrid,clearAlgo,flag} from "./board/board.js"
+import {Asearch} from "./algorithms/asearch.js";
+import { dropMenu } from "./events/events.js";
+import {startX,startY} from "./events/draganddrop.js"
 
 
 function Start(){

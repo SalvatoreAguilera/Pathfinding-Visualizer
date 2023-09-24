@@ -1,4 +1,4 @@
-import { changeColor,shortestPathAlgo,noPathResetFlag} from "/Grid/Board.js";
+import { changeColor,shortestPathAlgo,noPathResetFlag} from "../board/board.js";
 let len = 0;
 
 

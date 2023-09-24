@@ -1,5 +1,6 @@
-import { clearAlgo,flag,Grid,clearBoard,clearWalls,makeGrid } from "/Grid/Board.js";
-import { maze } from "/Algorithms/Maze.js"
+import { clearAlgo,flag,Grid,clearBoard,clearWalls,makeGrid } from "../board/board.js";
+import { maze } from "../algorithms/maze.js"
+import { dragSource,dragEnd } from "./draganddrop.js";
 
 
 

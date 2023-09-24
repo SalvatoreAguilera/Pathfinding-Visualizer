@@ -1,4 +1,4 @@
-import { setFlag,ROWS,COLS,Grid } from "/Grid/Board.js";
+import { setFlag,ROWS,COLS,Grid } from "../board/board.js";
 
 
 

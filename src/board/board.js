@@ -1,4 +1,4 @@
-import {startX,startY, isDragging, dragEnd, dragSource} from "/GridEvents/DragAndDrop.js"
+import {startX,startY, isDragging, dragEnd, dragSource} from "../events/draganddrop.js"
 
 let Grid = [];  //Grid array
 let visGrid = []; //visited grid 2D array

@@ -1,4 +1,4 @@
-import { ROWS,COLS,setFlag } from "/Grid/Board.js";
+import { ROWS,COLS,setFlag } from "../board/board.js";
 
 
 export function maze(grid){

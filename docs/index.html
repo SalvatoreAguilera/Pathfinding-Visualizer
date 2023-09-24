@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinder Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/batman.ico">
+    <script src="main.js" type="module" defer></script>
+    
+</head>
+<body>
+    <nav>
+    <ul> 
+        
+        <li id="title" onClick="window.location.reload();"><a href="#">Pathfinding Visualizer</a></li>
+        <li id="StartButton"><a href="#">Start</a></li>
+        <li id="ClearBoard"><a href="#">Clear Board</a></li>
+        <li id="Algorithms">
+            <a href="#" class="dropdown-arrow" >Algorithms</a>
+            <ul class="dropdown" id="dropdown-menu">
+                <li data-algo="DFS"><a href="#" id="Alg1">Depth-first Search</a></li>
+                <li data-algo="BFS"><a href="#" id="Alg2">Breath-first Search</a></li>
+                <li data-algo="DA"><a href="#" id="Alg3">Dijkstra's Algorithm</a></li>
+                <li data-algo="AS"><a href="#" id="Alg4">A*Search</a></li>
+            </ul>
+        </li>
+        <li id="Maze"><a href="#">Maze</a></li>
+        <li id="clear-path"><a href="#">Clear Path</a></li>
+        <li id="clear-wall"><a href="#">Clear Wall</a></li>  
+    </ul> 
+    </nav>
+    <div class="container" id="container">
+        
+        
+    </div>
+    
+</body>
+</html>

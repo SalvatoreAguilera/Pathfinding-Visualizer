@@ -15,7 +15,7 @@ if (screenWidth < 1400){
     COLS = 48; //67
     ROWS = 24  //30
 }else{
-    COLS = 68;
+    COLS = 67;
     ROWS = 30;
 }
 
@@ -40,8 +40,8 @@ function makeGrid(){
         container.appendChild(row);
     }
     
-    grid[ROWS/2][COLS/4-10].classList.add("start");
-    grid[ROWS/2][COLS/2+10].classList.add("end");
+    grid[5][5].classList.add("start");
+    grid[ROWS-5][COLS-5].classList.add("end");
     
 
     Grid = grid;

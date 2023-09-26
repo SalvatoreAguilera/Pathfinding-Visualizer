@@ -84,7 +84,7 @@ ul li :hover {
     display:flex;
     flex-direction: column;
     height: 90%;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     overflow-y: hidden;
     
 }

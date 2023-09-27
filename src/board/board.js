@@ -4,10 +4,10 @@ let Grid = [];  //Grid array
 let visGrid = []; //visited grid 2D array
 let flag = false; //flag for aniamtions to check when its running
 
-let COLS=67;
-let ROWS=30;
+const COLS = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--column'));
+const ROWS = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--rows'));
 
-const screenWidth  = window.screen.width;
+/*const screenWidth  = window.screen.width;
 const screenHeight = window.screen.height
 
 
@@ -17,7 +17,7 @@ if (screenWidth < 1400){
 }else{
     COLS = 67;
     ROWS = 30;
-}
+}*/
 
 function makeGrid(){
     let container = document.getElementById("container");

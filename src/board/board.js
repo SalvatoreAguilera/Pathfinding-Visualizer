@@ -40,8 +40,8 @@ function makeGrid(){
         container.appendChild(row);
     }
     
-    grid[5][5].classList.add("start");
-    grid[ROWS-5][COLS-5].classList.add("end");
+    grid[9][9].classList.add("start");
+    grid[ROWS-9][COLS-9].classList.add("end");
     
 
     Grid = grid;

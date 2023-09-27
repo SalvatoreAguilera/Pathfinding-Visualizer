@@ -84,8 +84,8 @@ ul li :hover {
     display:flex;
     flex-direction: column;
     height: 90%;
-    /*overflow-x: hidden;*/
-    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+    overflow-y: hidden;
     
 }
 
@@ -125,4 +125,43 @@ ul li :hover {
     align-items: center;
     background-color: red;
 }
-
+@media (min-width: 320px) {
+    :root {
+        --column: 10;
+        --rows: 20
+    }
+    ul li a {
+        font-size: 8px;
+        padding: 4px 5px;
+    }
+}
+@media (min-width: 481px) {
+    :root {
+        --column: 15;
+        --rows: 30;
+    }
+    ul li a {
+        font-size: 10px;
+        padding: 16px 20px;
+    }
+}
+@media (min-width: 720px) {
+    :root {
+        --column: 50;
+        --rows: 25;
+    }
+    ul li a {
+        font-size: 20px;
+        padding: 20px 25px;
+    }
+}
+@media (min-width: 1400px) {
+    :root {
+        --column: 67;
+        --rows: 30;
+    }
+    ul li a {
+        font-size: 25px;
+        padding: 20px 25px;
+    }
+}

@@ -1,4 +1,9 @@
 # Pathfinding-Visualizer
+https://github.com/SalvatoreAguilera/Pathfinding-Visualizer/assets/143650500/5bf7fc43-6ed4-4ddc-92f6-587179b22f39
+
+
+![Screenshot (29)](https://github.com/SalvatoreAguilera/Pathfinding-Visualizer/assets/143650500/8968f749-787f-45ed-9698-7c4cf1cef79e)
+
 https://salvatoreaguilera.github.io/Pathfinding-Visualizer/
 # Description and Inspiration
 I built this as my first Javascript project, it took a lot of time and work and I got most of my inspiration from clementmihailescu pathfinder and https://pathfindout.com/ .

@@ -7,8 +7,6 @@ https://github.com/SalvatoreAguilera/Pathfinding-Visualizer/assets/143650500/5bf
 https://salvatoreaguilera.github.io/Pathfinding-Visualizer/
 # Description and Inspiration
 I built this as my first Javascript project, it took a lot of time and work and I got most of my inspiration from clementmihailescu pathfinder and https://pathfindout.com/ .
-I chose this project because I found it very interesting and at the time impossible for someone like me who could barely center a div. While I was building this project I was taking a data-strcuture and algorithm course at CSUB,
-so this project really help me understand the concepts and get an A in my class(This was not a school project).
 
 # Algorithms
 It has 4 algorithms that you can chose to visualize.
